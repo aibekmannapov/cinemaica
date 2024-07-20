@@ -1,0 +1,109 @@
+#movieDetails{
+padding: 40px 0;
+color: white;
+.bg{
+    width:100%;
+    min-height: 100%;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.553);
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    margin-left: -71px;
+  
+}
+.movieDetails{
+    display: flex;
+    .block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        top: 150px;
+        right: 20%;
+        width: 800px;
+        height: 570px;
+        z-index: 999;
+        background:white;
+        .blockImg{
+            width: 40%;
+            height: 85%;
+            padding: 30px;
+        }
+        .close{
+            position: absolute;
+       top: 20px;
+       right: 20px;
+       color: black;
+           cursor: pointer;
+        }
+        h2{
+            color: black;
+            position: absolute;
+            top: 100px;
+            right: 5%;
+            width: 380px;
+        }
+    }
+
+    img{
+       border-radius: 10px;
+        height: 450px;
+        z-index: 99;
+        cursor: pointer;
+    }
+    &--text{
+        display: flex;
+      margin-left: 40px;
+      gap: 40px;
+      z-index: 99;
+        flex-direction: column;
+
+        .lp{
+            display: flex;
+            align-items: center;
+           
+        }
+        .time{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            .pl{
+                background: #0f1a48;
+                padding: 13px 5px;
+                border-radius: 50%;
+                border: 4px solid yellow;
+                h1{
+                    font-size: 25px;
+                }
+            }
+        }
+        .icons{
+            display: flex;
+            gap: 25px;
+        .a{
+            background:#0f1a48;
+            padding: 17px 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+        }
+    }
+
+    h5{
+        margin-bottom: -30px;
+        font-size: 22px;
+    }
+    }
+}
+.black{
+    background: rgba(0, 0, 0, 0.698);
+    width: 100%;
+    height: 550px;
+position: absolute;
+margin-top:-510px;
+
+}
+}

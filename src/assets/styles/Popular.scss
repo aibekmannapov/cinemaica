@@ -1,0 +1,37 @@
+#popular{
+    padding: 50px 0;
+    .popular{
+       display: flex;
+       align-items: center; 
+       justify-content: center;
+       flex-direction: column;
+
+        &--movie{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 80px;
+        h1{
+            color: red;
+          margin-left: 340px;
+          font-size: 30px;
+        }
+        }
+        &--pagination{
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            button{
+                border-radius: 20px;
+                cursor: pointer;
+                background: black;
+                border: none;
+                color: white;
+                font-size: 18px;
+                padding:10px 30px;
+
+            }
+        }
+    }
+}

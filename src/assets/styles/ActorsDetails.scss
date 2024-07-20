@@ -1,0 +1,68 @@
+#actorsDetails{
+    .actorsDetails{
+        &--card{
+            display: flex;
+            gap: 40px;
+            margin-top: 50px;
+            &__block1{
+                img{
+                    width: 320px;
+                    height: 450px;
+                    border-radius: 10px;
+                }
+                h1{
+                    font-size: 20px;
+                    margin-top: 30px;
+                }
+                h2{
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin-top: 15px;
+                }
+                h3{
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-top: 5px;
+                }
+                h4{
+                    margin-top: 20px;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                h5{
+                    font-weight: 500;
+                    margin-top: 5px;
+                }
+                h6{
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin-top: 20px;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-top: 10px;
+                    width: 150px;
+                   
+                }
+            }
+            &__block2{
+                h2{
+margin-top: 35px;
+font-size: 20px;
+font-weight: 700;
+                }
+                h3{
+                    margin-top: 20px;
+                    font-size: 14px;
+                    font-weight: 500;
+          span{
+            font-size: 18px;
+            color:rgb(61, 199, 199);
+            cursor: pointer;
+          }
+                }
+            }
+        }
+    }
+}
